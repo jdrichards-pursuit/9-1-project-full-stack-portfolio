@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 // Index route message.
-app.get('/', (_req, _res, next) => {
+app.get('/', (_req, res, next) => {
   res.send('FullStack App API');
   // next({
   //   message: 'No resource found.',
