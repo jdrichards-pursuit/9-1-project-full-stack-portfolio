@@ -1,5 +1,6 @@
 const cors = require('cors');
 const jsonServer = require('json-server');
+
 const path = require('path');
 const { validateResource } = require('./util');
 
