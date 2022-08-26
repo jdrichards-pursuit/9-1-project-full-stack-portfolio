@@ -15,10 +15,11 @@ app.use(cors());
 
 // Index route message.
 app.get('/', (_req, _res, next) => {
-  next({
-    message: 'No resource found.',
-    status: 404
-  });
+  res.send('FullStack App API');
+  // next({
+  //   message: 'No resource found.',
+  //   status: 404
+  // });
 });
 
 // Generic logging middleware.
